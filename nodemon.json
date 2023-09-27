@@ -1,5 +1,6 @@
 {
     "env": {
-        "MUSALLAH_WEBSITE_DATABASE_PASSWORD": "coolgrifters99@%!#"
+        "MUSALLAH_WEBSITE_DATABASE_PASSWORD": "coolgrifters99@%!#",
+        "PORT": 8081
     }
 }

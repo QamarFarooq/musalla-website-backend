@@ -6,3 +6,5 @@ const pool = mysql.createPool({
     database: 'musallah_website_database',
     password: `${process.env.MUSALLAH_WEBSITE_DATABASE_PASSWORD}`
 })
+
+module.exports = pool.promises();

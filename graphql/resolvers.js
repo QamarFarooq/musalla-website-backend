@@ -1,8 +1,6 @@
-module.exports = {
-    hello() {
-        return {
-            text: 'Hello World',
-            views: 666
-        }
-    }
-}
+// Define your resolver
+module.exports =  resolversArray = {
+    Query: {
+      hello: () => 'Hello, world!',
+    },
+  };
